@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace WebServCo\Application\Factory;
 
+use Override;
 use Psr\Http\Message\ServerRequestInterface;
 use WebServCo\Application\Contract\ApplicationRunnerFactoryInterface;
 use WebServCo\Application\Contract\ApplicationRunnerInterface;
@@ -18,6 +19,7 @@ final class ApplicationRunnerFactory implements ApplicationRunnerFactoryInterfac
     {
     }
 
+    #[Override]
     public function createApplicationRunner(ServerRequestInterface $serverRequest): ApplicationRunnerInterface
     {
         return new ApplicationRunner(

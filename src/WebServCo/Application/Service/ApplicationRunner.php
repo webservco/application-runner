@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace WebServCo\Application\Service;
 
+use Override;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 use WebServCo\Application\Contract\ApplicationRunnerInterface;
@@ -23,6 +24,7 @@ final class ApplicationRunner implements ApplicationRunnerInterface
     ) {
     }
 
+    #[Override]
     public function run(): bool
     {
         // Object: \Psr\Http\Message\ResponseInterface
