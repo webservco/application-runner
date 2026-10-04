@@ -28,9 +28,9 @@
         "php" : "^8.4",
         "psr/http-message": "^2",
         "psr/http-server-handler": "^1",
-        "webservco/application": "^1",
-        "webservco/emitter": "^1",
-        "webservco/http": "^1"
+        "webservco/application": "^2",
+        "webservco/emitter": "^2",
+        "webservco/http": "^2"
     },
     "require-dev": {
         "pds/skeleton": "^1",
