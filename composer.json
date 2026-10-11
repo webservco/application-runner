@@ -20,7 +20,7 @@
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
-    "description" : "A PHP component/library.",
+    "description" : "A PHP component/library. Runs a PSR-15 request handler for the current request and sends the response to the client.",
     "homepage" : "https://webserv.co",
     "keywords" : [
         "component",
